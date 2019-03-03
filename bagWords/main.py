@@ -28,7 +28,7 @@ def evaluate_text(bag,text):
 def euclidean_distance(vector1,vector2):
 	distance = 0
 	for i in range(len(vector1)):
-		distance += vector2[i]-vector1[i]
+		distance += (vector2[i]-vector1[i])**2
 	return math.sqrt(distance)
 def cosine_similarity(vector1,vector2):
 	vectorA = np.array(vector1)
