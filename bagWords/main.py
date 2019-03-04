@@ -38,10 +38,10 @@ def cosine_similarity(vector1,vector2):
 
 def main():
 	#Abrimos el archivo uno
-	text1=open("ejemplo.txt","r")
+	text1=open("ejemplo1.txt","r")
 	sentences_text1 = text1.read().lower()
 	#Abrimos el archivo dos
-	text2=open("ejemplo1.txt","r")
+	text2=open("ejemplo2.txt","r")
 	sentences_text2 = text2.read().lower()
 	#Creamos la bolsa de palabras
 	bag = tokenize_sentences([sentences_text1,sentences_text2])
