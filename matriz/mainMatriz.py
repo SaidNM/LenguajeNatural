@@ -26,5 +26,7 @@ def main():
 	#Calculamos la similitud coseno
 	#simCos = cosine_similarity(bagofWords_text1,bagofWords_text2)
 	#print ("Similitud coseno: " + str(simCos))
-
+	text1.close()
+	text2.close()
+	text3.close()
 main()

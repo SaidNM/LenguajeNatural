@@ -9,11 +9,14 @@ def extract_words(sentence):
 
 def tokenize_sentences(sentences):
 	words=[]
+	file = open ("bagWords.txt","w")
 	for sentence in sentences:
 		aux_words = extract_words(sentence)
 		words.extend(aux_words)
 
 	words=sorted(list(set(words)))
+	file.write(str(words))
+	file.close()
 	return words
 
 def matrizTF(bag,datos):
@@ -35,7 +38,7 @@ def showMatriz(bag,matriz):
 	b = np.array([bag,matriz[0],matriz[1]])
 	file.write(str(np.transpose(b)))
 	print(np.transpose(b))
-
+	file.close()
 # Medicion de la similitud
 """
 def euclidean_distance(vector1,vector2):
