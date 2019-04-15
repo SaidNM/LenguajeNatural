@@ -1,0 +1,26 @@
+************sn-grams of words/POS tags:
+
+************Size: 2
+job[their]	1
+lose[people]	1
+lose[job]	1
+people[Many]	1
+
+************Size: 3
+lose[job[their]]	1
+lose[people[Many]]	1
+lose[people,job]	1
+
+************Size: 4
+lose[people,job[their]]	1
+lose[people[Many],job]	1
+
+************Size: 5
+lose[people[Many],job[their]]	1
+
+************Size: 6
+EMPTY
+
+************Size: 7
+EMPTY
+

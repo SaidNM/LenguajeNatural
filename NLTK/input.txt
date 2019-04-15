@@ -1,0 +1,5 @@
+amod(people-2, Many-1)
+nsubj(lose-3, people-2)
+root(ROOT-0, lose-3)
+compound(life-5, their-4)
+dobj(lose-3, job-5)
